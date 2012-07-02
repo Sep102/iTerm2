@@ -94,7 +94,6 @@
 		1D5FDD461208E8F000C46BA3 /* PTYWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC5B04E42E320073D10E /* PTYWindow.h */; };
 		1D5FDD471208E8F000C46BA3 /* PTYScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6004E42E320073D10E /* PTYScrollView.h */; };
 		1D5FDD481208E8F000C46BA3 /* VT100Terminal.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6104E42E320073D10E /* VT100Terminal.h */; };
-		1D5FDD491208E8F000C46BA3 /* iTermController.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6204E42E320073D10E /* iTermController.h */; };
 		1D5FDD4A1208E8F000C46BA3 /* PreferencePanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6504E42E320073D10E /* PreferencePanel.h */; };
 		1D5FDD4B1208E8F000C46BA3 /* PTYSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6604E42E320073D10E /* PTYSession.h */; };
 		1D5FDD4C1208E8F000C46BA3 /* FindCommandHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 872EBC6804E42E320073D10E /* FindCommandHandler.h */; };
@@ -652,7 +651,6 @@
 		872EBC5B04E42E320073D10E /* PTYWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PTYWindow.h; path = Headers/iTerm/PTYWindow.h; sourceTree = "<group>"; };
 		872EBC6004E42E320073D10E /* PTYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PTYScrollView.h; path = Headers/iTerm/PTYScrollView.h; sourceTree = "<group>"; };
 		872EBC6104E42E320073D10E /* VT100Terminal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VT100Terminal.h; path = Headers/iTerm/VT100Terminal.h; sourceTree = "<group>"; };
-		872EBC6204E42E320073D10E /* iTermController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = iTermController.h; path = Headers/iTerm/iTermController.h; sourceTree = "<group>"; };
 		872EBC6504E42E320073D10E /* PreferencePanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PreferencePanel.h; path = Headers/iTerm/PreferencePanel.h; sourceTree = "<group>"; };
 		872EBC6604E42E320073D10E /* PTYSession.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PTYSession.h; path = Headers/iTerm/PTYSession.h; sourceTree = "<group>"; };
 		872EBC6804E42E320073D10E /* FindCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FindCommandHandler.h; path = Headers/iTerm/FindCommandHandler.h; sourceTree = "<group>"; };
@@ -967,7 +965,6 @@
 				872EBC6A04E42E320073D10E /* iTerm.h */,
 				DDF0FD63062916F70080EF74 /* iTermApplication.h */,
 				20D5CC6304E7AA0500000106 /* iTermApplicationDelegate.h */,
-				872EBC6204E42E320073D10E /* iTermController.h */,
 				1DDBC61C12E2BCDC00BC3868 /* iTermExpose.h */,
 				F69E78910AB7AC85001EC0FF /* iTermGrowlDelegate.h */,
 				DDDB7AD605D773B400E197C2 /* iTermKeyBindingMgr.h */,
@@ -1384,7 +1381,6 @@
 				1D5FDD461208E8F000C46BA3 /* PTYWindow.h in Headers */,
 				1D5FDD471208E8F000C46BA3 /* PTYScrollView.h in Headers */,
 				1D5FDD481208E8F000C46BA3 /* VT100Terminal.h in Headers */,
-				1D5FDD491208E8F000C46BA3 /* iTermController.h in Headers */,
 				1D5FDD4A1208E8F000C46BA3 /* PreferencePanel.h in Headers */,
 				1D5FDD4B1208E8F000C46BA3 /* PTYSession.h in Headers */,
 				1D5FDD4C1208E8F000C46BA3 /* FindCommandHandler.h in Headers */,
